@@ -1,0 +1,69 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-ExtraBold.ttf") format("truetype");
+    font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.invisible{
+    display: none;
+}
+
+.main-container{
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden; 
+    position: relative;
+    background: url('../assets/Mederi_Dic_BienvenidosAutomatizada_01_1536X648_2022.mp4');
+    background-position: center;
+    background-size: cover;
+    padding-top: 340px;
+}
+
+.container-slider{
+    width: 870px;
+    height: 810px;
+    margin: 0 auto;
+    overflow: hidden ;
+}   
+
+.slider{
+    display: flex;
+    width: 500%; /*Ancho del slider, varia dependiendo de la cantidad de elementos del slider*/
+    height: 810px;
+    margin-left: -100%;
+}
+
+.slider_section{
+    width: 100%;
+}
+
+.img-slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.people-container{
+    width: 870px;
+    margin: 140px auto 0;
+}
+
+p.main-title{
+    font-family: "Montserrat";
+    font-weight: normal;
+	font-style: normal;
+    font-size: 90px;
+    line-height: 104px;
+    text-align: center;
+
+    color: #10508A;
+}
